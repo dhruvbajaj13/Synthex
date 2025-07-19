@@ -1,1 +1,1 @@
-# AI-Article-Summariser-Chrome-Extension-
+# Synthex - AI Article Summariser
