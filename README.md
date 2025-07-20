@@ -1,4 +1,4 @@
-# ⚡ Synthex — AI Summarizer Chrome Extension
+# ⚡ Synthex — AI Page Summarizer Chrome Extension
 
 📝 A sleek, dark-themed Chrome Extension that summarizes webpage content using Google Gemini API.  
 No more long reads — just TL;DR it with a click!
