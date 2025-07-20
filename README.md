@@ -3,7 +3,6 @@
 📝 A sleek, dark-themed Chrome Extension that summarizes webpage content using Google Gemini API.  
 No more long reads — just TL;DR it with a click!
 
-
 ## 🔥 Features
 
 - 📄 **Instant Summarization** — Summarizes any open webpage content in seconds  
@@ -13,16 +12,12 @@ No more long reads — just TL;DR it with a click!
 - 💾 **Secure Storage** — API key settings saved locally  
 - 🚀 **Fast & Minimal** — Lightweight and privacy-focused  
 
----
-
 ## 🛠️ Tech Stack
 
 - **HTML + CSS** — Dark mode with rounded UI components
 - **Vanilla JavaScript** — Pure JS, no frameworks needed
 - **Chrome Extensions API** — Native browser integration
 - **Google Gemini API** — AI-powered content summarization
-
----
 
 ## 🚀 Installation & Usage
 
@@ -44,7 +39,7 @@ cd Synthex
 2. Open **Settings**
 3. Paste your **Gemini API Key**
    
-   👉 **Get your API key here:** [Google AI Studio](https://makersuite.google.com/app/apikey)
+ 👉 **Get your API key here:** [Google AI Studio](https://makersuite.google.com/app/apikey)
 4. Click **Save Settings**
 
 ### 4. 🧠 Start Summarizing
@@ -52,8 +47,6 @@ cd Synthex
 2. Click the **Synthex** extension icon
 3. Press the **"Summarize"** button
 4. Wait for your beautiful AI summary to appear! ✨
-
----
 
 ## 📂 Project Structure
 
@@ -68,14 +61,6 @@ Synthex/
 └── icon.png         # Extension icon
 ```
 
----
-
-## 🎨 Screenshots
-
-*Add screenshots of your extension in action here*
-
----
-
 ## 🔧 Development
 
 ### Prerequisites
@@ -88,11 +73,7 @@ Synthex/
 3. Click the refresh icon on the Synthex extension card
 4. Test your changes
 
----
-
 ## 🤝 Contributing
-
-Contributions are welcome! Please feel free to submit a Pull Request.
 
 1. Fork the project
 2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
@@ -100,13 +81,10 @@ Contributions are welcome! Please feel free to submit a Pull Request.
 4. Push to the branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
----
-
 ## 📄 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
----
 
 ## 🙏 Acknowledgments
 
@@ -114,11 +92,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 - **Chrome Extensions API** for seamless browser integration
 - The open-source community for inspiration and support
 
----
-
-## 📧 Contact
-
-**Dhruv Bajaj** - [@dhruvbajaj13](https://github.com/dhruvbajaj13)
 
 Project Link: [https://github.com/dhruvbajaj13/Synthex](https://github.com/dhruvbajaj13/Synthex)
 
