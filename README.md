@@ -40,6 +40,7 @@ cd Synthex
 3. Paste your **Gemini API Key**
    
  👉 **Get your API key here:** [Google AI Studio](https://makersuite.google.com/app/apikey)
+ 
 4. Click **Save Settings**
 
 ### 4. 🧠 Start Summarizing
