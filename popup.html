@@ -1,0 +1,160 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Synthex - AI Page Summarizer</title>
+    <style>
+      body {
+        font-family: 'Inter', 'Segoe UI', sans-serif;
+        background-color: #18181b; /* zinc-900 */
+        color: #f4f4f5; /* zinc-100 */
+        min-width: 480px;
+        min-height: 320px;
+        padding: 20px;
+        border-radius: 16px;
+        box-shadow: 0 0 0 2px #27272a; /* zinc-800 border */
+      }
+
+      h2 {
+        color: #fafafa;
+        margin-bottom: 20px;
+        font-size: 1.4rem;
+        font-weight: 700;
+        text-align: center;
+      }
+
+      .options {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+        justify-content: center;
+        flex-wrap: wrap;
+      }
+
+      button {
+        padding: 10px 20px;
+        background-color: #3b82f6;
+        color: white;
+        border: none;
+        border-radius: 10px;
+        cursor: pointer;
+        font-weight: 600;
+        transition: all 0.2s ease-in-out;
+        font-size: 14px;
+      }
+
+      button:hover {
+        background-color: #2563eb;
+        transform: scale(1.05);
+        box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+      }
+
+      #copy-btn {
+        background-color: #10b981;
+        font-size: 14px;
+      }
+
+      #copy-btn:hover {
+        background-color: #059669;
+      }
+
+      #summary-type {
+        padding: 10px 14px;
+        border-radius: 9999px; /* fully rounded */
+        border: 1px solid #3f3f46;
+        background: linear-gradient(145deg, #1f1f23, #2a2a2e);
+        color: #f4f4f5;
+        font-weight: 500;
+        font-size: 14px;
+        cursor: pointer;
+        appearance: none;
+        background-image: url('data:image/svg+xml;utf8,<svg fill="white" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg"><path d="M7 10l5 5 5-5z"/></svg>');
+        background-repeat: no-repeat;
+        background-position: right 0.75rem center;
+        background-size: 1rem;
+        padding-right: 2.5rem;
+        transition: all 0.2s ease-in-out;
+        box-shadow: inset 0 1px 2px rgba(0, 0, 0, 0.4), 0 1px 3px rgba(0, 0, 0, 0.2);
+      }
+
+      #summary-type:hover {
+        background-color: #2e2e33;
+        border-color: #52525b;
+      }
+
+      #summary-type:focus {
+        outline: none;
+        border-color: #3b82f6;
+        box-shadow: 0 0 0 2px rgba(59, 130, 246, 0.5);
+      }
+
+      #result {
+        margin-top: 20px;
+        padding: 15px;
+        border: 1px solid #3f3f46;
+        border-radius: 12px;
+        min-height: 160px;
+        max-height: 400px;
+        overflow-y: auto;
+        white-space: pre-wrap;
+        line-height: 1.6;
+        font-size: 14px;
+        background-color: #18181b;
+        color: #e4e4e7;
+        box-shadow: inset 0 1px 3px rgba(255, 255, 255, 0.05);
+      }
+
+      #result ul {
+        padding-left: 20px;
+      }
+
+      #result li {
+        margin-bottom: 10px;
+      }
+
+      .loading {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 150px;
+      }
+
+      .loader {
+        border: 4px solid #3f3f46;
+        border-top: 4px solid #3b82f6;
+        border-radius: 50%;
+        width: 32px;
+        height: 32px;
+        animation: spin 1s linear infinite;
+      }
+
+      @keyframes spin {
+        0% {
+          transform: rotate(0deg);
+        }
+        100% {
+          transform: rotate(360deg);
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <h2>&#x2728; Synthex - AI Page Summarizer &#x1F4C4;</h2>
+
+    <div class="options">
+      <select id="summary-type">
+        <option value="brief">&#x1F4DD; Brief Summary</option>
+        <option value="detailed">&#x1F4DA; Detailed Summary</option>
+        <option value="bullets">&#x1F538; Bullet Points</option>
+      </select>
+      <button id="summarize">&#x26A1; Summarize</button>
+      <button id="copy-btn">&#x1F4CB; Copy</button>
+    </div>
+
+    <div id="result">
+      &#128640; Select a summary type and click <strong>'Summarize'</strong> to get started!
+    </div>
+
+    <script src="config.js"></script>
+    <script src="popup.js"></script>
+  </body>
+</html>
